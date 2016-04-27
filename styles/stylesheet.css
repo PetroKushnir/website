@@ -40,7 +40,7 @@ header nav li a:hover {
 .main_info{
     padding-top: 1%;
     margin: 0 auto;
-    width: 70%;
+    width: auto;
     height: 400px;
 }
 
@@ -51,9 +51,9 @@ header nav li a:hover {
 #short_story {
     font-family: 'Hind', sans-serif;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     float: left;
-    width: 100%;
+    width: 50%;
     padding-bottom: 1%;
     padding-top: 15%;
 }
@@ -61,14 +61,12 @@ header nav li a:hover {
 .main_photo {
     float: right;
     display:inline-block;
-    width: 40%;
     padding-bottom: 1%;
 }
 
 .main_photo img {
     margin: 0 auto;
     display: block;
-    opacity: 10;
     border-radius: 50%;
 }
 
@@ -76,7 +74,7 @@ footer {
     background-color: #1c1c1c;
     height: 100px;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 #footer_nav a{
