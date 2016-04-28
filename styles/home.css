@@ -1,0 +1,47 @@
+body {
+    background-color: #E0E0E9;
+    width: 100%;
+    margin: 0 auto;
+}
+  h1{
+
+    color: black;
+    position: absolute; 
+    left: 550px;
+    font-weight: 300;
+    top: 25%;
+    text-transform: uppercase;
+    font-family: 'Couple', serif;
+    letter-spacing: 3px;
+}
+
+.main_info {
+    padding-top: 2%;
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+#short_story {
+    font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.main_photo {
+    float: right;
+    display:inline-block;
+    width: 50%;
+    padding-bottom: 1%;
+}
+
+.main_photo img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+
