@@ -13,7 +13,11 @@ body {
     text-transform: uppercase;
     font-family: 'Couple', serif;
     letter-spacing: 3px;
+    text-shadow: 3px 1px 3px rgba(0,0,0,0.5);
 }
+h2{
+    text-align: center;
+} 
 
 .main_info {
     padding-top: 2%;
@@ -33,7 +37,6 @@ body {
 }
 
 .main_photo {
-    float: right;
     display:inline-block;
     width: 50%;
     padding-bottom: 1%;
@@ -45,3 +48,16 @@ body {
     border-radius: 50%;
 }
 
+.aboutbutton { 
+    border: 2px solid #333;
+    display: inline-block;
+    padding: 4px 20px; 
+    text-decoration: none; 
+    color: #000; 
+
+}
+
+.aboutbutton:hover {
+    background: linear-gradient(to bottom, #A0A0A9, #A2A2A9);
+   }
+   

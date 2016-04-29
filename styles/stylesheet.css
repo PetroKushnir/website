@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    min-height: 100%;
 }
 
 
@@ -8,7 +9,7 @@ header {
     background-color: #1c1c1c ;
     height: 100px;
     width: 1000px;
-    margin: 0 450px;
+    margin: 0 455px;
     border-radius: 0 0 15px 15px;
     position: absolute;
     opacity: 0.8;
@@ -49,8 +50,7 @@ footer {
     background-color: #1c1c1c;
     height: 100px;
     width: 100%;
-    left: 0px;
-    bottom: 0px;
+   position: relative;top:50px;
 }
 
 .footer_nav a{
