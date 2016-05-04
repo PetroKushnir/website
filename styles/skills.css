@@ -1,0 +1,92 @@
+body,html {
+    background-color: #E3E3E5;;
+    width:auto;
+    height:auto;
+}
+
+.first_container{
+    position: relative;
+    padding-top: 2%;
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 3%;
+}
+
+.education{
+    float: left;
+    display: inline-block;
+    width: 40%;
+}
+
+.universitet{
+    float:left;
+    display: inline-block;
+    width: 40%;
+}
+
+.education h2 {
+    font-size: 24px;
+}
+.universitet h1 {
+    font-size: 16px;
+}
+
+.second_container{
+    position: relative;
+    padding-top: 2%;
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    font-family: 'Open Sans', sans-serif;
+    padding-botto: 3%;
+}
+.work_exp{
+    float: left;
+    display: inline-block;
+    width: 30%;
+}
+
+.jobs{
+    float:left;
+    display: inline-block;
+    width: 50%;
+}
+
+.work_exp h2 {
+    font-size: 24px;
+    
+}
+.jobs h2 {
+    font-size: 16px;
+}
+
+.third_container{
+    position: relative;
+    padding-top: 2%;
+    margin: 0 auto;
+    width: 80%;
+    height: 220px;
+    font-family: 'Open Sans', sans-serif;
+    padding-botto: 3%;
+}
+.techno{
+    float: left;
+    display: inline-block;
+    width: 30%;
+}
+
+.experience{
+    float:left;
+    display: inline-block;
+    width: 50%;
+}
+
+.work_exp h2 {
+    font-size: 24px;
+    
+}
+.jobs h2 {
+    font-size: 16px;
+}

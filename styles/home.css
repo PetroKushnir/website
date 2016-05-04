@@ -1,13 +1,13 @@
-body {
-    background-color: #E0E0E9;
-    width: 100%;
-    margin: 0 auto;
+body,html {
+    background-color: #E2E2F7;
+    width:auto;
+    height:auto;
+    
 }
-  h1{
-
-    color: black;
+h1 {
+    left: 0;
+    right: 0;
     position: absolute; 
-    left: 550px;
     font-weight: 300;
     top: 25%;
     text-transform: uppercase;
@@ -15,25 +15,28 @@ body {
     letter-spacing: 3px;
     text-shadow: 3px 1px 3px rgba(0,0,0,0.5);
 }
-h2{
-    text-align: center;
+h2 {
+    width: 50%;
+    font-family: 'Geneva', sans-serif;
 } 
 
 .main_info {
-    padding-top: 2%;
+    position: relative;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
+    
 }
 
 
 #short_story {
     font-family: 'Hind', sans-serif;
     font-size: 22px;
-    text-align: center;
+    text-align:center ;
     float: left;
     width: 50%;
     padding-bottom: 10%;
     padding-top: 10%;
+    
 }
 
 .main_photo {
@@ -49,9 +52,10 @@ h2{
 }
 
 .aboutbutton { 
+    margin: 0 auto;
     border: 2px solid #333;
     display: inline-block;
-    padding: 4px 20px; 
+    padding: 5px 25px; 
     text-decoration: none; 
     color: #000; 
 
