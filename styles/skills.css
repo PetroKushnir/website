@@ -17,13 +17,13 @@ body,html {
 .education{
     float: left;
     display: inline-block;
-    width: 40%;
+    width: 30%;
 }
 
 .universitet{
     float:left;
     display: inline-block;
-    width: 40%;
+    width: 50%;
 }
 
 .education h2 {
@@ -87,6 +87,6 @@ body,html {
     font-size: 24px;
     
 }
-.jobs h2 {
+.experience h2 {
     font-size: 16px;
 }

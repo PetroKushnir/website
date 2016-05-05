@@ -4,6 +4,7 @@ body,html{
     background-size: cover;
     width:auto;
     height:auto;
+    max-width: 1920px;
 }
 
 header {
@@ -86,6 +87,7 @@ footer {
 }
 
 .footer_nav { 
+    position: relative;
     margin: 0 auto;
     width:auto;
     height:auto;
@@ -111,7 +113,7 @@ footer {
 
 .created {
     text-align: center;
-    display: block;
+    display: inline-block;
     padding-top: 2%;
     color: grey;
     font-family: 'Open Sans', sans-serif;

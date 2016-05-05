@@ -4,3 +4,10 @@ body,html {
     height:auto;
     
 }
+
+.map iframe {
+    width: 100%;
+    margin-bottom: 0px;
+    -webkit-filter: grayscale(75%);
+    filter: grayscale(75%);
+}
