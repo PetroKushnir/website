@@ -46,6 +46,7 @@ h1{
 
 
 input[type=text] {
+    outline:none;
     width: 46%;
     padding: 12px 20px;
     margin: 0px 4% 0 0; 
@@ -53,7 +54,7 @@ input[type=text] {
     border: 1px solid black;
     border-radius: 1px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .name_surname_fieldset {
@@ -74,7 +75,8 @@ input[type=email] {
     border-radius: 1px;
     box-sizing: border-box;
     font-family: Verdana, serif;
-    font-size: 14px;
+    font-size: 12px;
+    outline:none;
 }
 
 textarea {
@@ -86,17 +88,17 @@ textarea {
     border: 1px solid black;
     border-radius: 1px;
     font-family: Verdana, serif;
-    font-size: 16px;
+    font-size: 12px;
     resize: yes;
+    outline:none;
 }
 
 #submit_button {
     width: 100px;
-    float: left;
+    float: right;
     background-color: transparent;
     font-size: 13px;
     color: black;
-    font-family: 'Open Sans', sans-serif;
     border-color: black;
     border: 1px solid;
     font-weight: bold;
