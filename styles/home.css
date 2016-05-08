@@ -8,16 +8,19 @@ h1 {
     left: 0;
     right: 0;
     position: absolute; 
-    font-weight: 300;
     top: 25%;
     text-transform: uppercase;
     font-family: 'Couple', serif;
+    font-weight: 300;
+    font-size: 34px;
     letter-spacing: 3px;
     text-shadow: 3px 1px 3px rgba(0,0,0,0.5);
 }
 h2 {
     width: 50%;
-    font-family: 'Geneva', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 5%;
 } 
 
 .main_info {
@@ -29,14 +32,14 @@ h2 {
 
 
 #short_story {
-    font-family: 'Hind', sans-serif;
+    font-weight: 200;
     font-size: 22px;
     text-align:center ;
     float: left;
     width: 50%;
     padding-bottom: 10%;
     padding-top: 10%;
-    
+    font-family: 'Oswald', sans-serif;
 }
 
 .main_photo {
@@ -53,12 +56,13 @@ h2 {
 
 .aboutbutton { 
     margin: 0 auto;
-    border: 2px solid #333;
+    border: 1px solid #333;
     display: inline-block;
     padding: 5px 25px; 
     text-decoration: none; 
-    color: #000; 
-
+    color: #000;
+    margin-bottom: 5%;
+    font-family: 'Oswald', sans-serif;
 }
 
 .aboutbutton:hover {
