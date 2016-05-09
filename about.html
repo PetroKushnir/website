@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Kushnir Petro</title>
+    <link rel="stylesheet" href="styles/lightslider.css" />
     <link rel="stylesheet" href="styles/stylesheet.css" />
     <link rel="stylesheet" href="styles/about.css" />
+    
+    
     <link href='https://fonts.googleapis.com/css?family=Oxygen:700,400,300' rel='stylesheet' type='text/css'>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="scripts/lightslider.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jssor.slider.debug.js"></script>
+    <script src="jssor.slider.mini.js"></script>
     <header>
             <nav>
                 <ul>
@@ -28,32 +38,44 @@
         <section class="main_info">
             <h2>More words about me</h2>
             <div class="paragraph">
-                    <p>Im glad to see you my friend. Hi, my name is Petro Kushnir and I am beginner web developer. 
-                    My passion to become programmer aroused from the desired to create from numbers to programs ,from ghosts to realities.
-                    If you would like to know me better you are welcome to press button "more about me".</p>
-               </div>
-                <div>
-                    <figure class="line1">
-                    <img src="img/band.jpg" alt="List Picture" width="200" height="250">
-                    <img src="img/mountains.jpg" alt="List Picture" width="200" height="250">
-                    <img src="img/mountains1.jpg" alt="List Picture" width="200" height="250">
-                    </figure>
-                    <figure class="line2">
-                    <img src="img/ski.jpg" alt="List Picture" width="200" height="250">
-                    <img src="img/ski1.jpg" alt="List Picture" width="200" height="250">
-                    <img src="img/twister.jpg" alt="List Picture" width="200" height="250">
-                    </figure>
                     
-                </div>
-            <div class="films">
-                <ul>
-                    <li>Interstellar</li>
-                    <li>Gone Girl</li>
-                    <li>Girl with the Dragon Tatoo</li>
-                    <li>No Country for Old Men</li>
-                    <li>Into the Mind</li>
+               </div>
+            
+                <ul id="lightslider">
+                <li>
+                  <div class="myslide">
+                      <img src="img/band.jpg">
+                  </div> 
+                </li>
+                <li>
+                  <div class="myslide">
+                      <img src="img/band2.jpg">
+                  </div> 
+                </li>
+                <li>
+                  <div class="myslide">
+                      <img src="img/mountains.jpg">
+                  </div> 
+                </li>
+                <li>
+                  <div class="myslide">
+                      <img src="img/mountains1.jpg">
+                  </div> 
+                </li>
+                <li>
+                  <div class="myslide">
+                      <img src="img/ski.jpg">
+                  </div> 
+                </li>
+                <li>
+                  <div class="myslide">
+                      <img src="img/ski1.jpg">
+                  </div> 
+                </li>
+            
                 </ul>
-            </div>
+                
+                
             <a id="learn_more" href="about.html">Contacs wiht me!</a>
         </section>
     </main>

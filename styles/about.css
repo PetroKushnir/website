@@ -4,3 +4,8 @@ body,html {
     height:auto;
     
 }
+#lightslider{
+  width: 70%;
+  height: 30%;
+  margin: 0 10%;
+}
