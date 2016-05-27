@@ -3,18 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Kushnir Petro</title>
+    
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/stylesheet.css" />
-    <link rel="stylesheet" href="styles/lightslider.css" />
+    <link rel="stylesheet" href="styles/orbit.css" />	
     
     <link href='https://fonts.googleapis.com/css?family=Oxygen:700,400,300' rel='stylesheet' type='text/css'>
-    
-    
+        
+        <style type="text/css">
+	  		#featured { width: 940px; height: 450px; background: #009cff url('orbit/loading.gif') no-repeat center center; overflow: hidden; }
+	  	</style>
+        
+        <script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.orbit.js"></script>
+		<script type="text/javascript" src="scripts/jquery.orbit.min.js"></script>
+        <script type="text/javascript">
+			$(window).load(function() {
+				$('#featured').orbit({
+					'bullets': true,
+					'timer' : true,
+					'animation' : 'horizontal-slide'
+				});
+			});
+		</script>
 </head>
 <body>
-    <script src="jquery-1.11.3.min.js"></script>
-    <script src="jssor.slider.debug.js"></script>
-    <script src="jssor.slider.mini.js"></script>
+    
     <header>
             <nav>
                 <ul>
@@ -37,44 +51,18 @@
             <h2>More words about me</h2>
                     It's nice to meat you here my friend!What could be better than meeting up with old friends or make new!
                     Every time when we find something new, we are getting better and stronger so that why we need always move.
-                    So that why it's a motto of my life.
                     A little below you can find photos of my daily and weekends life, and read more about me.
                </div>
-                <div class="galery">
-                <ul id="lightslider">
-                <li>
-                  <div class="myslide">
-                      <img src="img/band.jpg" alt="band">
-                  </div> 
-                </li>
-                <li>
-                  <div class="myslide">
-                      <img src="img/band2.jpg" alt="band2">
-                  </div> 
-                </li>
-                <li>
-                  <div class="myslide">
-                      <img src="img/mountains.jpg" alt="mount">
-                  </div> 
-                </li>
-                <li>
-                  <div class="myslide">
-                      <img src="img/mountains1.jpg" alt="mount1">
-                  </div> 
-                </li>
-                <li>
-                  <div class="myslide">
-                      <img src="img/ski.jpg" alt="ski">
-                  </div> 
-                </li>
-                <li>
-                  <div class="myslide">
-                      <img src="img/ski1.jpg" alt="ski1">
-                  </div> 
-                </li>
-            
-                </ul>
-                </div>
+
+            <div id="featured"> 
+    			<img src="img/band.jpg" width="500" alt="band" />
+    			<img src="img/band2.jpg"  width="500" alt="Ezio" rel="my band" />
+    			<img src="img/mountains.jpg"  width="500" alt="mountains" />
+    			<img src="img/mountains1.jpg"  width="500" alt="mountains" rel="mountains" />
+    		</div> 
+		<span class="orbit-caption" id="my band">This is an <em>awesome caption</em> for Ezio. <strong>Note:</strong> This whole image is linked</span>
+		<span class="orbit-caption" id="mountains">This is an <em>awesome caption</em> for Marcus with a <a href="http://www.zurb.com/playground" target="_blank" style="color: #fff">link</a></span>
+		
                 <div class="paragraph">
                 <h2>My life</h2>
                 I have many passions like ski in winter or nice cold beer with friends in summer,but when I want to stay alone most better thing it's read books and watch good movies. 
