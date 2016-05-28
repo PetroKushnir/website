@@ -23,7 +23,10 @@ main{
     margin: 1% 30%
 }
 
-
+#featured{
+    margin-left: auto;
+    margin-right: auto;
+}
 .contact {
     margin: 0 30%;
     border: 1px solid #333;
